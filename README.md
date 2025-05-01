@@ -28,7 +28,7 @@ CREATE TABLE OrderItems (
     Quantity INT,
     PRIMARY KEY (OrderID, Product),
     FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
-);
+); 
 
 -- Insert Data into Orders Table
 -- Insert unique orders into the Orders table
